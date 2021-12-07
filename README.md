@@ -16,7 +16,7 @@
             <a href="https://isocpp.org"><img alt="C++" title="C++ | C++17" height="20px" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /></a><a href="https://www.python.org"><img alt="Python" title="Python | Python 3.10 & 3.9" height="20px" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /></a><a href="https://godotengine.org"><img alt="Godot & GDScript" title="Godot & GDScript" height="20px" src="https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=GodotEngine&logoColor=white"></a>
         </th>
         <th style="text-align: center;">
-            <a href="https://open.spotify.com/user/31okxaqyjgfwqsgnlggepdkaanju"><img src="https://github-readme-spotify-ebon.vercel.app/api/spotify" /></a>
+            <a href="https://open.spotify.com/user/31okxaqyjgfwqsgnlggepdkaanju"><img height="100px" src="https://github-readme-spotify-ebon.vercel.app/api/spotify" /></a>
         </th>
     <tr>
     <tr>
@@ -24,7 +24,7 @@
     </tr>
     <tr>
         <th colspan="3" style="text-align: center;">
-        <a title="Visit my Github repositories" href="https://github.com/MumuNiMochii?tab=repositories"><img src="https://github-readme-stats.vercel.app/api?username=MumuNiMochii&show_icons=true&include_all_commits=true&theme=synthwave&custom_title=Github%20Stats&hide_border=true" alt="Github Stats" /></a><a title="Visit my Github repositories" href="https://github.com/MumuNiMochii?tab=repositories"><img height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MumuNiMochii&layout=compact&theme=synthwave&langs_count=10&hide=js&hide_border=true" /></a>
+        <a title="Visit my Github repositories" href="https://github.com/MumuNiMochii?tab=repositories"><img height="150px" src="https://github-readme-stats.vercel.app/api?username=MumuNiMochii&show_icons=true&include_all_commits=true&theme=synthwave&custom_title=Github%20Stats&hide_border=true" alt="Github Stats" /></a><a title="Visit my Github repositories" href="https://github.com/MumuNiMochii?tab=repositories"><img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MumuNiMochii&layout=compact&theme=synthwave&langs_count=10&hide=js&hide_border=true" /></a>
         </th>
     </tr>
     <tr>
@@ -45,7 +45,7 @@
         </th>
     </tr>
     <tr>
-        <th colspan="3"">
+        <th colspan="3">
             <details><summary>Graphics</summary>
                 <table>
                     <tr>
@@ -57,13 +57,13 @@
                             <table>
                                 <tr>
                                     <td>
-                                        <img width="252px" src="img\old_pixel_art_submission.png" /><br /><img width="252px" src="img\old_itadori_yuji_fanart_with_krita.png" \><br /><img width="252px" src="img\old_goku_mui_with_aseprite.png" /><br /><img width="252px" src="img\05_donut_final_rendered.png" /><br /><img width="252px" src="img\06_donut_final_rendered.png" />
+                                        <img width="212px" src="img\old_pixel_art_submission.png" /><br /><img width="212px" src="img\old_itadori_yuji_fanart_with_krita.png" \><br /><img width="212px" src="img\old_goku_mui_with_aseprite.png" /><br /><img width="212px" src="img\05_donut_final_rendered.png" /><br /><img width="212px" src="img\06_donut_final_rendered.png" />
                                     </td>
                                     <td>
-                                        <img width="252px" src="img\old_krita_oc_lineart.png" />
+                                        <img width="212px" src="img\old_krita_oc_lineart.png" />
                                     </td>
                                     <td>
-                                        <img width="252px" src="img\old_portfolio_card_animation.gif" /><br /><img width="252px" src="img\old_portfolio_animation.gif" /><br /><img width="252px" src="img\old_yufo_model_with_godot.png" />
+                                        <img width="212px" src="img\old_portfolio_card_animation.gif" /><br /><img width="212px" src="img\old_portfolio_animation.gif" /><br /><img width="212px" src="img\old_yufo_model_with_godot.png" />
                                     </td>
                                 </tr>
                             </table>
