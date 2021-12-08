@@ -16,7 +16,7 @@
             <a href="https://isocpp.org"><img alt="C++" title="C++ | C++17" height="20px" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /></a><a href="https://www.python.org"><img alt="Python" title="Python | Python 3.10 & 3.9" height="20px" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /></a><a href="https://godotengine.org"><img alt="Godot & GDScript" title="Godot & GDScript" height="20px" src="https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=GodotEngine&logoColor=white"></a>
         </th>
         <th style="text-align: center;">
-            <a href="https://open.spotify.com/user/31okxaqyjgfwqsgnlggepdkaanju"><img height="100px" src="https://github-readme-spotify-ebon.vercel.app/api/spotify" /></a>
+            <a href="https://open.spotify.com/user/31okxaqyjgfwqsgnlggepdkaanju"><img width="350px" height="100px" src="https://github-readme-spotify-ebon.vercel.app/api/spotify" /></a>
         </th>
     <tr>
     <tr>
@@ -40,7 +40,7 @@
     </tr>
     <tr>
         <th colspan="3" style="text-align: center;">
-                <img src="https://github-profile-trophy.vercel.app/?username=MumuNiMochii&theme=monokai&no-frame=true&row=1" /><br />
+                <img src="https://github-profile-trophy.vercel.app/?username=MumuNiMochii&theme=monokai&no-frame=true&row=1&column=6" /><br />
                 <a href="https://github.com/MumuNiMochii"><img alt="Github profile" title="Github profile" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a><a href="https://mumunimochii.itch.io"><img alt="itch.io profile" title="itch.io profile" src="https://img.shields.io/badge/Itch.io-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white" /></a><a href="https://www.youtube.com/channel/UCIbFglT-SmEPmeGTXxUipZA"><img alt="YouTube channel" title="YouTube channel" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
         </th>
     </tr>
