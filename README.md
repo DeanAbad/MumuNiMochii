@@ -16,7 +16,7 @@
             <a href="https://isocpp.org"><img alt="C++" title="C++ | C++17" height="20px" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /></a><a href="https://www.python.org"><img alt="Python" title="Python | Python 3.10 & 3.9" height="20px" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /></a><a href="https://godotengine.org"><img alt="Godot & GDScript" title="Godot & GDScript" height="20px" src="https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=GodotEngine&logoColor=white"></a>
         </th>
         <th style="text-align: center;">
-            <a href="https://open.spotify.com/user/31okxaqyjgfwqsgnlggepdkaanju"><img width="350px" height="100px" src="https://github-readme-spotify-ebon.vercel.app/api/spotify" /></a>
+            <a href="https://open.spotify.com/user/31okxaqyjgfwqsgnlggepdkaanju"><img height="100px" src="https://github-readme-spotify-ebon.vercel.app/api/spotify" /></a>
         </th>
     <tr>
     <tr>
