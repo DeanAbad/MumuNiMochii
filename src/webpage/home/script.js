@@ -1,6 +1,6 @@
 function follow(mouse_position) {
     var ghost = document.getElementById("animated_ghost_emoji_container");
-    var iframe_position = document.getElementsByClassName("responsive_content_iframe").position();
+    var iframe_position = document.getElementsByClassName("responsive_content_iframe");
     
     iframe_position.innerHTML.onmousemove = function(mouse_position) {
         ghost.style.left = mouse_position.pageX + iframe_position.left + 'px';
