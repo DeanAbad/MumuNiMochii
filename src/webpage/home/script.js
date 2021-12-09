@@ -1,7 +1,8 @@
 function follow(mouse_position) {
     var ghost = document.getElementById("animated_ghost_emoji_container");
-    ghost.style.left = mouse_position.clientX + 'px';
-    ghost.style.top = mouse_position.clientY + 'px';
+
+    ghost.style.left = mouse_position.pageX + 'px';
+    ghost.style.top = mouse_position.pageY + 'px';
     ghost.style.transition = "all 2s linear 0s";
 }
 
@@ -35,6 +36,5 @@ function hide_ghost_message_popup() {
     setTimeout(show_ghost_message_popup, 2000);
 }
 
-document.onmousemove = follow;
-
 setTimeout(show_ghost_message_popup, 3000); // Launch automatically
+document.onmousemove = follow;
