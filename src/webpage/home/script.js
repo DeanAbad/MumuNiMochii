@@ -20,6 +20,7 @@ function show_ghost_message_popup() {
     ghost_message.style.position = "relative";
     ghost_message.style.textAlign = "center";
     ghost_message.style.boxSizing = "border-box";
+    ghost_message.style.userSelect = "none";
     ghost_message.style.opacity = "1";
     ghost_message.style.transition = "all 0.25s linear 0s";
 
