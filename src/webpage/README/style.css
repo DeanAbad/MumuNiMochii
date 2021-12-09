@@ -1,8 +1,4 @@
-/* Add a font-family */
-@font-face {
-    font-family: 'Roboto';
-    src: url('../../fonts/Roboto-Regular.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 table {
     border: 2px solid rgba(0, 0, 0, 0.275);
@@ -13,6 +9,10 @@ th {
     border-bottom: 2px solid rgba(0, 0, 0, 0.275);
     font-family: 'Roboto', sans-serif;
     font-size: 0.75rem;
+}
+
+.main_table {
+    margin: auto;
 }
 
 .graphics_dropdown_section:hover {
