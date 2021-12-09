@@ -35,8 +35,7 @@ function hide_ghost_message_popup() {
     setTimeout(show_ghost_message_popup, 2000);
 }
 
-const iframe_area = document.getElementsByClassName("content_iframe_container");
 document.onmousemove = follow;
-iframe_area.onmousemove = follow;
+document.getElementsByClassName("content_iframe_container").onmousemove = follow;
 
 setTimeout(show_ghost_message_popup, 3000); // Launch automatically
