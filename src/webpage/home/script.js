@@ -2,7 +2,7 @@ function follow(mouse_position) {
     var ghost = document.getElementById("animated_ghost_emoji_container");
     var iframe_position = document.getElementsByClassName("responsive_content_iframe").position();
     
-    iframe_position.innerHTML.onmousemove = function(e) {
+    iframe_position.innerHTML.onmousemove = function(mouse_position) {
         ghost.style.left = mouse_position.pageX + iframe_position.left + 'px';
         ghost.style.top = mouse_position.pageY + iframe_position.top + 'px';
         ghost.style.transition = "all 2s linear 0s";
