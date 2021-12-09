@@ -54,10 +54,13 @@ body {
 
 .content_iframe_navigation_bar {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .content_iframe_navigation_bar > a {
     color: #fff;
+    text-align: center;
     text-decoration: none;
 }
 
