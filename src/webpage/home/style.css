@@ -11,17 +11,18 @@ body {
 }
 
 .title_us {
+    font-size: 20px;
     user-select: none;
-    transition: all 0.25s ease 0s;
+    transition: all 0.10s ease 0s;
 }
 
 .title_us:hover {
-    font-size: 34px;
+    font-size: 21px;
     cursor: pointer;
 }
 
 .title_us:active {
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .title_us:hover > span {
@@ -98,7 +99,7 @@ body {
 }
 
 .line_divider {
-    margin: 0 auto 20px auto;
+    margin: 0 auto 10px auto;
     padding: 0;
     width: 50%;
     height: 2px;
@@ -125,6 +126,7 @@ body {
 
 .content_iframe_navigation_bar > a:nth-child(odd) > .button {
     background-color: rgb(70, 113, 220);
+    border: 0 solid rgba(70, 113, 220, 0.508);
 }
 
 .content_iframe_navigation_bar > a:nth-child(odd):hover > .button {
@@ -137,6 +139,7 @@ body {
 
 .content_iframe_navigation_bar > a:nth-child(even) > .button {
     background-color: rgb(220, 70, 115);
+    border: 0 solid rgba(220, 70, 115, 0.508);
 }
 
 .content_iframe_navigation_bar > a:nth-child(even):hover > .button {
