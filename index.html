@@ -6,72 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MumuNiMochii</title>
     <link rel="icon" type="image/x-icon" href="src/img/ghost.gif">
-    <link rel="stylesheet" href="src\webpage\home\style.css" type="text/css">
-    <script type="text/javascript" src="src\webpage\home\script.js"></script>
+    <link rel="stylesheet" href="src/webpage/home/style.css" type="text/css">
+    <script type="text/javascript" src="src/webpage/home/script.js" async></script>
 </head>
 <body>
     <div id="animated_ghost_emoji_container">
         <div id="ghost_message_popup"></div>
-        <img src="src/img/ghost.gif" />
+        <img src="src/img/ghost.gif" alt="floating ghost gif" />
     </div>
-    
+
+    <div id="info_section_container">
+        <button class="info_section_button" onclick="toggle_info_section_visibility()">x</button>
+        <div id="info_section">
+            <h2>About</h2>
+            <p>This is a school project and made with possible ❤️☕ & Github.</p>
+            <div class="line_divider"></div>
+            <h2>Projects</h2>
+            <p>The projects can be accessed with the buttons in homepage.</p>
+            <p><a href="https://github.com/MumuNiMochii/MumuNiMochii" target="_blank" title="Visit repository">Github README Profile</a> is originally a Markdown file, which the changed it syntaxes into HTML i.e. its table elements. It is a README page I made for my Github profile, and you can take a look <a href="https://github.com/MumuNiMochii" target="_blank" title="Visit profile">here</a>. You can also check the contents by clicking the badges and icons in the page.</p>
+            <p><a href="https://github.com/MumuNiMochii/TokiAni" target="_blank" title="Visit repository">TokiAni!</a> is a React web app that uses <a href="https://jikan.docs.apiary.io/#reference" target="_blank" title="Go to documentation">Jikan API</a> to get anime information. To use, you can click from the provided links or search first in the search bar.</p>
+            <p><a href="https://github.com/MumuNiMochii/Paleolithic_Table" target="_blank" title="Visit repository">Paleolithic Table</a> is an old project of mine where it is entirely built with table tag. I only revamped its look, and the original version is the 'Version 1'.</p>
+            <p><a href="https://github.com/MumuNiMochii/Old_p5js_Projects" target="_blank" title="Visit repository">Old p5js Projects</a> is a compilation of things I made with <a href="https://p5js.org/reference/" target="_blank" title="Go to documentation">p5.js</a> library. Making projects with p5.js was discontinued as I went for a <a href="https://docs.godotengine.org/en/stable/index.html" target="_blank" title="Go to Godot's documentation">game engine</a> back then.</p>
+            <div class="line_divider"></div>
+            <h2>Contact</h2>
+            <p>You may contact me at <a href="mailto:deanharoldpabad@gmail.com" title="Go to email app">deanharoldpabad@gmail.com</a> or via <a href="https://twitter.com/mumunimochii" title="Go to Twitter account">Twitter</a>.</p>
+            <div class="line_divider"></div>
+            <p id="credits">MumuNiMochii 2021</p>
+        </div>
+    </div>
+
     <div class="header_container">
         <div class="website_name">
             <h1 class="title_us"><span class="first">MumuN</span><span class="second">iMochii</span></h1>
         </div>
         <div class="circle_divider"></div>
         <div class="content_iframe_navigation_bar">
-            <a href="https://mumunimochii.github.io/MumuNiMochii/" target="_self">
+            <a href="src/webpage/README/index.html" target="content_iframe">
                 <div class="button">
-                    Home
+                    Github README Profile
                 </div>
             </a>
-            <a href="#" target="_self">
+            <a href="https://mumunimochii.github.io/TokiAni/" target="content_iframe">
                 <div class="button">
-                    Projects
+                    TokiAni!
                 </div>
             </a>
-            <a href="#" target="_self">
+            <a href="https://mumunimochii.github.io/Paleolithic_Table/" target="content_iframe">
                 <div class="button">
-                    About
+                    Paleolithic Table
                 </div>
             </a>
-            <a href="#" target="_self">
+            <a href="https://mumunimochii.github.io/Old_p5js_Projects/" target="content_iframe">
                 <div class="button">
-                    Contact
+                    Old p5js Projects
                 </div>
             </a>
         </div>
+        <div class="circle_divider"></div>
+        <button class="info_section_button" onclick="toggle_info_section_visibility()">?</button>
     </div>
 
     <div class="line_divider"></div>
 
-    <div class="content_iframe_navigation_bar">
-        <a href="src/webpage/README/index.html" target="content_iframe">
-            <div class="button">
-                Github README Profile
-            </div>
-        </a>
-        <a href="https://mumunimochii.github.io/TokiAni/" target="content_iframe">
-            <div class="button">
-                TokiAni! React + Jikan API
-            </div>
-        </a>
-        <a href="https://mumunimochii.github.io/Paleolithic_Table/" target="content_iframe">
-            <div class="button">
-                Paleolithic Table
-            </div>
-        </a>
-        <a href="https://mumunimochii.github.io/Old_p5js_Projects/" target="content_iframe">
-            <div class="button">
-                Old p5js Projects
-            </div>
-        </a>
-    </div>
-
     <div class="content_iframe_container">
         <iframe class="responsive_content_iframe" src="src\webpage\README\index.html" name="content_iframe" title="Contents"></iframe>
     </div>
-
 </body>
 </html>

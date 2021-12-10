@@ -37,5 +37,18 @@ function hide_ghost_message_popup() {
     setTimeout(show_ghost_message_popup, 2000);
 }
 
+function toggle_info_section_visibility() {
+    var info_section_container = document.getElementById("info_section_container");
+
+    if (info_section_container.style.display === "none") {
+        info_section_container.style.display = "block";
+        info_section_container.style.zIndex = "1";
+    } else {
+        info_section_container.style.display = "none";
+        info_section_container.style.zIndex = "-1";
+    }
+}
+
+toggle_info_section_visibility();
 setTimeout(show_ghost_message_popup, 3000); // Launch automatically
 document.onmousemove = follow;
